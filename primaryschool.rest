@@ -1,0 +1,74 @@
+### Get the root endpoint
+GET http://localhost:5050/
+Content-Type: application/json
+
+### Get the root endpoint
+GET http://localhost:5050/administration
+Content-Type: application/json
+
+### Get the root endpoint
+GET http://localhost:5050/administration/68501e68f75609fe313ccc1c
+Content-Type: application/json
+
+### Get the root endpoint
+POST http://localhost:5050/administration HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Natasha Chilumba",
+    "contact": "0765000767",
+    "email": "natashachilumba099@gmail.com",
+    "position": "accountant"
+}
+
+### Get the root endpoint
+PUT http://localhost:5050/administration/68501e68f75609fe313ccc1c HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Louis Chilumba",
+    "contact": "0974894139",
+    "email": "lchilumba@gmail.com",
+    "position": "Principal"
+}
+
+### Get the root endpoint
+DELETE http://localhost:5050/administration/6850432b5a7d9f5aab398bb4
+Content-Type: application/json
+
+//Teachers
+
+### Get the root endpoint
+GET http://localhost:5050/teachers
+Content-Type: application/json
+
+### Get the root endpoint
+GET http://localhost:5050/teachers/68501fe6db09643ab4b5d434
+Content-Type: application/json
+
+### Get the root endpoint
+POST http://localhost:5050/teachers HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Doris Nalavwe",
+    "contact": "0966872365",
+    "subject": "Science and Bookkeeping",
+    "class": "5 to 6"
+}
+
+### Get the root endpoint
+PUT http://localhost:5050/teachers/68503f18dc8527f95c6bb5fd HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Natasha Chilumba",
+    "contact": "0765000767",
+    "subject": "Civic and Social Studies",
+    "class": "3rd and 4th graders"
+}
+
+### Get the root endpoint
+DELETE http://localhost:5050/teachers/6850fa515d8f35f64e653e88
+Content-Type: application/json
+
