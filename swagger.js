@@ -5,7 +5,7 @@ const doc = {
         title: 'Primary School ApI',
         description: 'Primary School Api'
     },
-    host: 'localhost:5050',
+    host: 'https://primary-school-api.onrender.com',
     schemes: ['http', 'https']
 };
 
